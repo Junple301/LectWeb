@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>표 기본 표현</title>
+</head>
+<body>
+    <h3>기본적인 표의 표현</h3>
+    <table border="1">
+        <caption>앙 기모띠</caption>
+        <!-- <thead>과목별 추천도서</thead>
+        <tbody>참 힘들다</tbody>
+        <tfoot>이건 또 뭐임</tfoot> -->
+        <tr>
+            <th>책 제목</th>
+            <th>저자</th>
+            <th>출판사</th>
+        </tr>
+        <tr>
+            <td>HTML5 입문</td>
+            <td>임순범, 박희민</td>
+            <td>생능</td>
+        </tr>
+        <tr>
+            <td>소셜미디어 시대의 인터넷 활용</td>
+            <td>최윤철, 임순범</td>
+            <td>생능</td>
+        </tr>
+        <tr>
+            <td>WHAT IS HTML5</td>
+            <td>B.McLaughlin</td>
+            <td>O'Reilly</td>
+        </tr>
+    </table>
+    <hr>
+    <table border="1">
+        <tr>
+            <td rowspan="3">아래줄(rows)<br>셀 합치기</td>
+            <td>1행(row) 2열</td>
+        </tr>
+        <tr>
+            <!--2행 1열 없음-->
+            <td>2행(row) 2열</td>
+        </tr>
+        <tr>
+            <!--3행 1열 없음-->
+            <td>3행(row) 2열</td>
+        </tr>
+    </table>
+    <hr>
+    <table border="1">
+        <tr>
+            <td colspan="3">옆 간(cols>의 셀 합치기</td>
+        </tr>
+        <tr>
+            <td>2행 1열(col)</td>
+            <td>2행 2열(col)</td>
+            <td>2행 3열(col)</td>
+        </tr>
+    </table>
+</body>
+</html>

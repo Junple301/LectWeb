@@ -1,11 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>HTML 기본구조</title>
+    <meta charset = "UTP-8">
+    <meta authors = "임순범 박희민">
 </head>
 <body>
-    
+   <h2>HTML 문서의 기본 구조</h2>
+   <p>html 문서는 head 와 body 요소로 구성된다.</p>
+        <p>body에는 내용을 구성하는 여러가지 요소가 ....</p>
+        <!--설명문은 이렇게 작성-->
+        <!-- 컨트롤 / -> 주석처리 -->
+
+    <p>단락은 &lt;p&gt; 요소로 표현한다</p>
+    <p>&lt;p&gt;요소는&nbsp;단락이 끝나면 구분을 위하여 줄간격을 띄우지만,<br>
+    단순 줄바꿈인 &lt;br&gt;요소는&nbsp;줄간격을 띄우지 않는다.</p>
+    <p>&lt;도&nbsp;레미파<br> 솔라시도&gt;</p>
+
+    <h1>&lt;H1&gt; 헤드라인 제목 1호</h1>
+    <h2>&lt;H2&gt; 헤드라인 제목 1호</h2>
+    <h3>&lt;H3&gt; 헤드라인 제목 1호</h3>
+    <h4>&lt;H4&gt; 헤드라인 제목 1호</h4>
+    <h5>&lt;H5&gt; 헤드라인 제목 1호</h5>
+    <h6>&lt;H6&gt; 헤드라인 제목 1호</h6>
+
+    <hr>&nbsp; 자동으로 줄바꾼다    
+    <pre>&nbsp;p r e 요 소 는 있는 그대로 출력</pre>
+    <blockquote>
+        <p>다른 글의 내용 인용<br>
+        인용된 내용은 들여쓰기</p>
+    </blockquote>
+
+    <p>도<em>레</em><strong>미</strong><small>파</small><mark>솔</mark><sub>라</sub><sup>시</sup>도</p>
+
+    <!-- ul>li*3 -->
+    <ul>
+        <li>첫번째 항목(list item)</li>
+        <li>두번째 항목(list item)</li>
+        <li>세번째 항목(list item)</li>
+    </ul>
+
+    <ol>
+        <li>첫번째 항목(list item)</li>
+        <li>두번째 항목(list item)</li>
+        <li>세번째 항목(list item)</li>
+    </ol>
+
+    <p>설명 목록</p>
+    <dl>
+        <dd>항목1</dd>
+        <dt>항목에 대한 설명1</dt>
+        <dd>항목2</dd>
+        <dt>항목에 대한 설명2</dt>
+    </dl>
+
 </body>
 </html>
